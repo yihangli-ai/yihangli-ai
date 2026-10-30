@@ -1,18 +1,26 @@
 ![Yihang Li · AI Engineering](assets/banner.svg)
 
-# 李亦航 / Yihang Li
+<p align="center"><img src="assets/yh-logo.svg" width="64" alt="YH" /></p>
+
+<h1 align="center">李亦航 · Yihang Li</h1>
+
+<p align="center"><b>从模型能力，到可靠的工程系统。</b></p>
+
+<p align="center"><a href="#技术方向">技术方向</a> · <a href="#featured-projects">项目路线</a> · <a href="#engineering-practice">工程标准</a> · <a href="#contact">联系我</a></p>
 
 **AI Agent 应用开发 · AI Infrastructure**
 
 关注 AI Agent 应用开发与 AI Infra，致力于将大模型能力转化为可靠、可评估、可部署的工程系统。
 
-我的当前技术背景是深度学习、Python、PyTorch、Linux、GPU 计算与模型实验评估。正在将研究中的模型开发思路延伸到应用系统工程；以下技术背景由本人提供，未来项目均明确标注为规划。
+技术背景：**深度学习 / Python / PyTorch / Linux / GPU 计算 / 模型实验评估**。
+
+以 AI Agent 应用开发为第一方向，AI Infra 为第二方向，关注工作流、评估与模型服务。
 
 ## 技术方向
 
 ### Agent Application Engineering
 
-**学习与计划实践**：Agent Workflow、Tool Calling、RAG、Memory、Multi-Agent、Agent Evaluation、Observability。尚无经本次审查验证的已完成 Agent 项目。
+**学习与计划实践**：Agent Workflow、Tool Calling、RAG、Memory、Multi-Agent、Agent Evaluation、Observability。相关作品仍处于规划阶段。
 
 ![Agent 工作流概念设计，非已部署系统](assets/agent-workflow.svg)
 
@@ -20,7 +28,7 @@
 
 **本人提供的技术背景**：模型开发、实验评估与 GPU Computing；尚无已验证的公开 Infra 项目。
 
-**学习与计划实践**：LLM Serving、Concurrency、Batching、Caching、Monitoring、Reliability。科研训练中的 batch size 不等同于在线服务的动态 Batching。
+**学习与计划实践**：LLM Serving、Concurrency、Batching、Caching、Monitoring、Reliability。
 
 ![AI Infra 目标架构，规划示意](assets/ai-infra-architecture.svg)
 
@@ -29,12 +37,14 @@
 | 状态 | 技术 | 说明 |
 | :--- | :--- | :--- |
 | 本人提供的技术背景 | Python、PyTorch、Linux、GPU 计算 | 不宣称熟练程度或生产部署经验 |
-| 本次环境已验证 | Git / GitHub CLI | Windows 可找到 Git，CLI 已核实账号 |
+| 开发工具 | Git / GitHub CLI | 用于当前主页仓库管理 |
 | 待实践与验证 | Docker、FastAPI、Redis、PostgreSQL、LangGraph、vLLM | 不列为已掌握技能 |
 
 ## Featured Projects
 
-**当前暂无经本次审查确认可公开、可复现且贡献归属明确的 Agent / Infra 已完成项目。** 以下是作品集开发路线，不是已完成成果。
+**NEXT / 未来作品集路线**
+
+以下三个项目均为规划，尚未实现。后续以可运行代码、测试和 Demo 更新完成状态。
 
 ### 01 · Agent Application Platform — 规划中
 
@@ -65,7 +75,7 @@
 
 ## Engineering Practice
 
-以下是后续交付采用的工程标准，尚不作为全部已完成的能力认证：
+后续作品的交付标准：
 
 - 系统设计：说明组件职责、输入输出与失败边界。
 - 自动化测试：覆盖正常流程、无效输入、超时与回归案例。
